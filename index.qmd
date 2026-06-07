@@ -149,15 +149,19 @@ __We need better protection strategies!__
 
 ::: {.fragment .semi-fade-out fragment-index=1}
 
-- Open data disseminatio (harmful)
+- Open data dissemination (harmful)
 
 :::
+
+# Data anonymization
+
+What is identifying information?
 
 ## Synthetic data
 
 ::: {.emph}
 
-___Synthetic data__ are data that are generated from a model or algorithm, with the aim of mimicking (some aspects of) the observed data._^[As opposed to real world, collected data.]
+___Synthetic data__ are data that are generated from a model or algorithm, with the aim of mimicking (some aspects of) the observed data._^[_Fake data, generated data, digital twins._ As opposed to real world, collected data.]
 
 :::
 
@@ -169,11 +173,46 @@ ___Synthetic data__ are data that are generated from a model or algorithm, with 
 ![](synthetic-data-machine.png)
 
 
+# Don't you ever!
+
+![](chatgpt-synthetic.png)
+
+## Tools for generating synthetic data
+
+Many software programs exist (mainly in programming languages like `R` and `python`)
+
+- For tabular data: specify model for each variable
+
+- For images: deep learning model for the entire image
+
+- For text, videos: deep learning models for sequences
+
+
+# Learning the structure of a data set
+
+What features are important?
+
+## Univariate distributions
+
+## Multivariate distributions
+
+## Modelling peculiarities
+
+
+
 
 
 # Using synthetic data
 
 We want to do the same things with synthetic data that we could do with the real data, without the privacy risks related to the real data.
+
+## The privacy-utility trade-off
+
+## Advantages of synthetic data
+
+## Disadvantages of synthetic data
+
+## Assignment
 
 # Questions?
 
