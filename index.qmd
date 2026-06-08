@@ -165,6 +165,12 @@ ___Synthetic data__ are data that are generated from a model or algorithm, with 
 
 :::
 
+<br>
+
+::: {.fragment .fade-up}
+_What is your experience with synthetic data?_
+:::
+
 # {background-iframe='https://whichfaceisreal.com/index.php'}
 
 
@@ -370,6 +376,10 @@ ggplot(
 
 # Privacy risks
 
+::: {.emph}
+_Is synthetic data safe?_
+:::
+
 ## Identity disclosure
 
 
@@ -554,6 +564,8 @@ Quality of synthetic data depends entirely on the synthesis model; and can be ha
 - Complex sythesis models obscure what information is reproduced in the synthetic data
 
 Synthetic data can live a life of it's own
+
+Some things are no longer possible: e.g., data linkage
 
 ## Assignment
 
