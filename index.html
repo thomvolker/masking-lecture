@@ -278,11 +278,217 @@
 <h2>The synthetic data machine</h2>
 
 <img data-src="synthetic-data-machine.png" class="r-stretch"></section></section>
-<section>
 <section id="dont-you-ever" class="title-slide slide level1 center">
 <h1>Don’t you ever!</h1>
 
 <img data-src="chatgpt-synthetic.png" class="r-stretch"></section>
+
+<section>
+<section id="learning-the-structure-of-a-data-set" class="title-slide slide level1 center">
+<h1>Learning the structure of a data set</h1>
+<p>What features are important?</p>
+</section>
+<section id="distinguishing-signal-from-noise" class="slide level2">
+<h2>Distinguishing signal from noise</h2>
+<div class="columns">
+<div class="column">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="fragment fade-left">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="example-the-u.s.-current-population-survey" class="slide level2">
+<h2>Example: The U.S. Current Population Survey</h2>
+<ul>
+<li>5000 individuals</li>
+</ul>
+<ul>
+<li>Variables: <code>tax</code>, <code>income</code>, <code>age</code>, <code>educ</code>, <code>marital status</code>, <code>race</code>, <code>sex</code>, <code>social security</code></li>
+</ul>
+</section>
+<section id="univariate-distributions" class="slide level2">
+<h2>Univariate distributions</h2>
+<div class="columns">
+<div class="column">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="fragment fade-left">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="multivariate-distributions" class="slide level2">
+<h2>Multivariate distributions</h2>
+<div class="columns">
+<div class="column">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column">
+<div class="fragment fade-left">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="privacy-risks" class="title-slide slide level1 center">
+<h1>Privacy risks</h1>
+
+</section>
+<section id="identity-disclosure" class="slide level2">
+<h2>Identity disclosure</h2>
+<p><br><br></p>
+<div class="emph">
+<p>The ability to identify an individual from the synthetic data</p>
+</div>
+</section>
+<section id="attribute-disclosure" class="slide level2">
+<h2>Attribute disclosure</h2>
+<p><br><br></p>
+<div class="emph">
+<p>The ability to learn an attribute (e.g., some characteristic) of an individual from the synthetic data</p>
+</div>
+</section></section>
+<section>
+<section id="the-privacy-utility-trade-off" class="title-slide slide level1 center">
+<h1>The privacy-utility trade-off</h1>
+
+</section>
+<section id="utility-versus-privacy" class="slide level2 smaller">
+<h2>Utility versus privacy</h2>
+<p><strong>Utility</strong></p>
+<ul>
+<li>Can I do the same things with the synthetic data as with the real data?</li>
+<li>Are the synthetic data characteristics the same as the observed data characteristics?</li>
+</ul>
+<p><strong>Privacy</strong></p>
+<ul>
+<li>Can I reproduce the original data from the synthetic data?</li>
+<li>Can I determine whether a person was part of the original data?</li>
+<li>Can I estimate person-specific characteristics with great precision?</li>
+</ul>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<div class="cell" data-fig-width="10.5" data-fig-height="6" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="1008" height="576" viewbox="0.00 0.00 1152.00 646.92" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(0.996222 0.996222) rotate(0) translate(7.2 642.18)">
+<title>G</title>
+<!-- a&#45;&#45;b -->
+<g id="edge1" class="edge">
+<title>a--b</title>
+<path fill="none" stroke="#155b78" stroke-width="5" d="M32.52,-288.31C147.2,-288.31 1014.51,-288.31 1129.12,-288.31"></path>
+<polygon fill="#155b78" stroke="#155b78" stroke-width="5" points="32.47,-283.06 20.47,-288.31 32.47,-293.56 32.47,-283.06"></polygon>
+<polygon fill="#155b78" stroke="#155b78" stroke-width="5" points="1129.16,-293.56 1141.16,-288.31 1129.16,-283.06 1129.16,-293.56"></polygon>
+</g>
+<!-- title -->
+<g id="node1" class="node">
+<title>title</title>
+<text text-anchor="start" x="379.34" y="-606.78" font-family="Helvetica,sans-Serif" font-size="28.00" fill="#333842"> </text>
+<text text-anchor="start" x="387.12" y="-606.78" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="28.00" fill="#333842">How much does the synthetic</text>
+<text text-anchor="start" x="393.31" y="-578.78" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="28.00" fill="#333842">data look like the real data?</text>
+<text text-anchor="start" x="760.54" y="-578.78" font-family="Helvetica,sans-Serif" font-size="28.00" fill="#333842"> </text>
+</g>
+<!-- leftTop -->
+<g id="node2" class="node">
+<title>leftTop</title>
+<text text-anchor="start" x="26.8" y="-341.86" font-family="Helvetica,sans-Serif" font-size="26.00" fill="#333842"> </text>
+<text text-anchor="start" x="34.02" y="-341.86" font-family="Helvetica,sans-Serif" font-style="italic" font-size="26.00" fill="#333842">Perfect imitation</text>
+<text text-anchor="start" x="220.43" y="-341.86" font-family="Helvetica,sans-Serif" font-size="26.00" fill="#333842"> </text>
+</g>
+<!-- rightTop -->
+<g id="node3" class="node">
+<title>rightTop</title>
+<text text-anchor="start" x="844.15" y="-369.5" font-family="Helvetica,sans-Serif" font-size="26.00" fill="#333842"> </text>
+<text text-anchor="start" x="851.38" y="-369.5" font-family="Helvetica,sans-Serif" font-style="italic" font-size="26.00" fill="#333842">I don't know what</text>
+<text text-anchor="start" x="868.01" y="-343.5" font-family="Helvetica,sans-Serif" font-style="italic" font-size="26.00" fill="#333842">I'm looking at</text>
+<text text-anchor="start" x="1020.38" y="-343.5" font-family="Helvetica,sans-Serif" font-size="26.00" fill="#333842"> </text>
+</g>
+<!-- utility -->
+<g id="node4" class="node">
+<title>utility</title>
+<text text-anchor="start" x="8" y="-246.73" font-family="Helvetica,sans-Serif" font-size="27.00" fill="#333842"> </text>
+<text text-anchor="start" x="15.5" y="-246.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="27.00" fill="#333842">Utility</text>
+<text text-anchor="start" x="90.5" y="-246.73" font-family="Helvetica,sans-Serif" font-size="27.00" fill="#333842"> </text>
+</g>
+<!-- privacy -->
+<g id="node5" class="node">
+<title>privacy</title>
+<text text-anchor="start" x="1015.97" y="-246.73" font-family="Helvetica,sans-Serif" font-size="27.00" fill="#333842"> </text>
+<text text-anchor="start" x="1023.47" y="-246.73" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="27.00" fill="#333842">Privacy</text>
+<text text-anchor="start" x="1119.55" y="-246.73" font-family="Helvetica,sans-Serif" font-size="27.00" fill="#333842"> </text>
+</g>
+<!-- caption -->
+<g id="node6" class="node">
+<title>caption</title>
+<text text-anchor="start" x="268.52" y="-47" font-family="Helvetica,sans-Serif" font-size="20.00" fill="#333842"> </text>
+<text text-anchor="start" x="274.08" y="-47" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="20.00" fill="#333842">In principle, you always lose information when creating synthetic</text>
+<text text-anchor="start" x="289.14" y="-27" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="20.00" fill="#333842">data. The question is ‘how much information do you need to</text>
+<text text-anchor="start" x="396.31" y="-7" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="20.00" fill="#333842">sacrifice in order to protect privacy?’</text>
+<text text-anchor="start" x="759.76" y="-7" font-family="Helvetica,sans-Serif" font-size="20.00" fill="#333842"> </text>
+</g>
+<!-- a -->
+<!-- b -->
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
 <section id="tools-for-generating-synthetic-data" class="slide level2">
 <h2>Tools for generating synthetic data</h2>
 <p>Many software programs exist (mainly in programming languages like <code>R</code> and <code>python</code>)</p>
@@ -293,35 +499,55 @@
 </ul>
 </section></section>
 <section>
-<section id="learning-the-structure-of-a-data-set" class="title-slide slide level1 center">
-<h1>Learning the structure of a data set</h1>
-<p>What features are important?</p>
-</section>
-<section id="univariate-distributions" class="slide level2">
-<h2>Univariate distributions</h2>
-</section>
-<section id="multivariate-distributions" class="slide level2">
-<h2>Multivariate distributions</h2>
-</section>
-<section id="modelling-peculiarities" class="slide level2">
-<h2>Modelling peculiarities</h2>
-</section></section>
-<section>
 <section id="using-synthetic-data" class="title-slide slide level1 center">
 <h1>Using synthetic data</h1>
 <p>We want to do the same things with synthetic data that we could do with the real data, without the privacy risks related to the real data.</p>
 </section>
-<section id="the-privacy-utility-trade-off" class="slide level2">
-<h2>The privacy-utility trade-off</h2>
+<section id="synthetic-data-use-cases" class="slide level2">
+<h2>Synthetic data use-cases</h2>
+<p>Dummy data</p>
+<p>Data for education</p>
+<p>Data for testing and model-building</p>
+<p>Replication packages</p>
+<p>Novel research?</p>
 </section>
 <section id="advantages-of-synthetic-data" class="slide level2">
 <h2>Advantages of synthetic data</h2>
+<p>Privacy can be well protected</p>
+<ul>
+<li><p>No real records anymore</p></li>
+<li><p>Information that goes into the synthesis model can be bounded</p></li>
+</ul>
+<p>A large amount of information can be preserved</p>
+<ul>
+<li>Model can be enriched with additional information</li>
+</ul>
+</section>
+<section id="possible-extensions" class="slide level2">
+<h2>Possible extensions</h2>
+<p>Encode prior or external information</p>
+<ul>
+<li>Different data sources</li>
+</ul>
+<p>Borrow strength from different domains</p>
 </section>
 <section id="disadvantages-of-synthetic-data" class="slide level2">
 <h2>Disadvantages of synthetic data</h2>
+<p>Quality of synthetic data depends entirely on the synthesis model; and can be hard to evaluate</p>
+<ul>
+<li><p>Too simple models might omit important data characteristics</p></li>
+<li><p>Complex sythesis models obscure what information is reproduced in the synthetic data</p></li>
+</ul>
+<p>Synthetic data can live a life of it’s own</p>
 </section>
 <section id="assignment" class="slide level2">
 <h2>Assignment</h2>
+<ol type="1">
+<li><p>Discuss a case where you may be harmed by your own published (real or hypothetical) data</p></li>
+<li><p>Discuss whether synthetic data can serve as a protection method, or whether something else is required</p></li>
+<li><p>Evaluate potential downsides of the protection methods</p></li>
+</ol>
+<p><strong>Approximately 500 words</strong></p>
 </section></section>
 <section id="questions" class="title-slide slide level1 center">
 <h1>Questions?</h1>
@@ -547,6 +773,82 @@
         ]
       });
     </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
